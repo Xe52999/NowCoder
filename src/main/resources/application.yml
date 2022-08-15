@@ -1,0 +1,38 @@
+# ServerProperties
+server:
+  port: 8083
+spring:
+  #Thymeleaf
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
+
+  # DataSourceProperties
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.103.210.235:3306/nowcoder?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      #最大连接数
+      maximum-pool-size: 15
+      minimum-idle: 5
+      #ms
+      idle-timeout: 30000
+
+#mybatisProperties
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xe.mynowcoder.entity
+  configuration:
+    use-generated-keys: true
+    map-underscore-to-camel-case: true
+#logger
+logging:
+  level:
+    com.xe.mynowcoder: debug
+
