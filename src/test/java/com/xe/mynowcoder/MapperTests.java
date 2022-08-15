@@ -1,8 +1,10 @@
 package com.xe.mynowcoder;
 
 import com.xe.mynowcoder.dao.DiscussPostMapper;
+import com.xe.mynowcoder.dao.LoginTicketMapper;
 import com.xe.mynowcoder.dao.UserMapper;
 import com.xe.mynowcoder.entity.DiscussPost;
+import com.xe.mynowcoder.entity.LoginTicket;
 import com.xe.mynowcoder.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,6 +29,9 @@ public class MapperTests {
 
     @Autowired
     private DiscussPostMapper discussPostMapper;
+
+    @Autowired
+    private LoginTicketMapper loginTicketMapper;
 
 
     @Test
@@ -59,6 +64,26 @@ public class MapperTests {
         int i = discussPostMapper.selectDiscussPostRows(101);
         System.out.println(i);
 
+    }
+    @Test
+    public void testInsertLoginTicket() {
+        LoginTicket loginTicket = new LoginTicket();
+
+        loginTicket.setUserId(101);
+        loginTicket.setTicket("abc");
+        loginTicket.setStatus(0);
+        loginTicket.setExpired(new Date(System.currentTimeMillis()+1000*60*10));
+        int i = loginTicketMapper.insertLoginTicket(loginTicket);
+        System.out.println(i);
+    }
+    @Test
+    public void testSelectLoginTicket() {
+        LoginTicket loginTicket = loginTicketMapper.selectByTicket("abc");
+        System.out.println(loginTicket);
+
+        loginTicketMapper.updateStatus("abc", 1);
+        loginTicket = loginTicketMapper.selectByTicket("abc");
+        System.out.println(loginTicket);
     }
 
 }

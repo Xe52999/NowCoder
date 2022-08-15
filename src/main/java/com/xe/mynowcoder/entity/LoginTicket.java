@@ -11,6 +11,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class LoginTicket {
 
+    //登录凭证
     private int loginTicketId;
     private int userId;
     private String ticket;

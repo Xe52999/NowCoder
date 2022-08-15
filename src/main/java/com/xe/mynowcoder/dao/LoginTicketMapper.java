@@ -5,9 +5,10 @@ import com.xe.mynowcoder.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 @Mapper
-@Deprecated
+//@Deprecated
 public interface LoginTicketMapper {
 
+    //会自动帮你拼接
     @Insert({
             "insert into login_ticket(user_id,ticket,status,expired) ",
             "values(#{userId},#{ticket},#{status},#{expired})"
@@ -21,6 +22,7 @@ public interface LoginTicketMapper {
     })
     LoginTicket selectByTicket(String ticket);
 
+    //演示动态sql
     @Update({
             "<script>",
             "update login_ticket set status=#{status} where ticket=#{ticket} ",

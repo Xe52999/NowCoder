@@ -1,6 +1,10 @@
 # ServerProperties
 server:
   port: 8083
+  #域名后面的，一般加项目名,如果设置为“/nowcoder” 则需要这样访问
+  #http://localhost:8083/nowcoder/index
+  servlet:
+    context-path: ""
 spring:
   #Thymeleaf
   thymeleaf:
@@ -23,6 +27,20 @@ spring:
       minimum-idle: 5
       #ms
       idle-timeout: 30000
+# mail
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 1961409642@qq.com
+    password: kkdbmzikwbksceec
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
+
 
 #mybatisProperties
 mybatis:
@@ -31,8 +49,12 @@ mybatis:
   configuration:
     use-generated-keys: true
     map-underscore-to-camel-case: true
-#logger
-logging:
-  level:
-    com.xe.mynowcoder: debug
+##logger
+#logging:
+#  level:
+#    com.xe.mynowcoder: debug
 
+#nowCoder 自定义键
+nowcoder:
+  path:
+   domain: http://localhost:8083
