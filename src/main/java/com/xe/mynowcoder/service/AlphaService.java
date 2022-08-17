@@ -1,6 +1,5 @@
 package com.xe.mynowcoder.service;
 
-
 import com.xe.mynowcoder.dao.AlphaDao;
 import com.xe.mynowcoder.dao.DiscussPostMapper;
 import com.xe.mynowcoder.dao.UserMapper;
@@ -59,8 +58,8 @@ public class AlphaService {
     public String find() {
         return alphaDao.select();
     }
-
-    // REQUIRED: 支持当前事务(外部事务),如果不存在则创建新事务.
+    //演示声明式事务的事务管理
+    // REQUIRED: 支持当前事务(外部事务),如果不存在则创建新事务. （A调用B，对于B来说A就是当前事务（外部事务，如果A不存在事务就创建，如果有就按照A的））
     // REQUIRES_NEW: 创建一个新事务,并且暂停当前事务(外部事务).
     // NESTED: 如果当前存在事务(外部事务),则嵌套在该事务中执行(独立的提交和回滚),否则就会REQUIRED一样.
     @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
@@ -83,11 +82,13 @@ public class AlphaService {
         post.setCreateTime(new Date());
         discussPostMapper.insertDiscussPost(post);
 
+        //人为制造一个错误
         Integer.valueOf("abc");
 
         return "ok";
     }
 
+    //演示编程式事务的事务管理
     public Object save2() {
         transactionTemplate.setIsolationLevel(TransactionDefinition.ISOLATION_READ_COMMITTED);
         transactionTemplate.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRED);

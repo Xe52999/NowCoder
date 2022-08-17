@@ -4,10 +4,14 @@ import com.xe.mynowcoder.entity.DiscussPost;
 import com.xe.mynowcoder.entity.Page;
 import com.xe.mynowcoder.service.DiscussPostService;
 import com.xe.mynowcoder.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -23,6 +27,7 @@ import java.util.Map;
  */
 @Controller
 public class HomeController {
+    private  static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     @Autowired
     private DiscussPostService discussPostService;
 
@@ -34,6 +39,10 @@ public class HomeController {
         //不需要将page重新加入model
         // 方法调用前,SpringMVC会自动实例化Model和Page,并将Page注入Model.
         // 所以,在thymeleaf中可以直接访问Page对象中的数据.
+
+        //前端传入了current 属性放在了page中.不传默认为1
+        logger.info("调用了首页分页方法，当前页为"+page.getCurrent());
+
         page.setRows(discussPostService.findDiscussPostsRows(0));
         page.setPath("/index");
 
@@ -52,5 +61,15 @@ public class HomeController {
         model.addAttribute("discussPosts",discussPosts);
         return "/index";
     }
+    @RequestMapping(path = "/error", method = RequestMethod.GET)
+    public String getErrorPage() {
+        return "/error/500";
+    }
+
+    @RequestMapping(path = "/denied", method = RequestMethod.GET)
+    public String getDeniedPage() {
+        return "/error/404";
+    }
+
 
 }

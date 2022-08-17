@@ -9,16 +9,22 @@
         <input type="button" value="发送" onclick="send();">
     </p>
 
+    <!--引入Jquery-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+
     <script>
         function send() {
             $.post(
-                "/community/alpha/ajax",
+                /*访问路径*/
+                "/alpha/ajax",
+                /*数据*/
                 {"name":"张三","age":23},
+                /*匿名回调函数，data就是服务器返回的数据，是个字符串*/
                 function(data) {
                     console.log(typeof(data));
                     console.log(data);
 
+                    /*转成Json格式*/
                     data = $.parseJSON(data);
                     console.log(typeof(data));
                     console.log(data.code);

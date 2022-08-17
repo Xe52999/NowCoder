@@ -27,7 +27,7 @@ public interface MessageMapper {
     // 新增消息
     int insertMessage(Message message);
 
-    // 修改消息的状态
+    // 修改消息的状态  修改列表中的所有的未读状态
     int updateStatus(List<Integer> ids, int status);
 
     // 查询某个主题下最新的通知

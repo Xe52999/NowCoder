@@ -2,9 +2,11 @@ package com.xe.mynowcoder;
 
 import com.xe.mynowcoder.dao.DiscussPostMapper;
 import com.xe.mynowcoder.dao.LoginTicketMapper;
+import com.xe.mynowcoder.dao.MessageMapper;
 import com.xe.mynowcoder.dao.UserMapper;
 import com.xe.mynowcoder.entity.DiscussPost;
 import com.xe.mynowcoder.entity.LoginTicket;
+import com.xe.mynowcoder.entity.Message;
 import com.xe.mynowcoder.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,6 +35,8 @@ public class MapperTests {
     @Autowired
     private LoginTicketMapper loginTicketMapper;
 
+    @Autowired
+    private MessageMapper messageMapper;
 
     @Test
     public void testInsertUser(){
@@ -84,6 +88,27 @@ public class MapperTests {
         loginTicketMapper.updateStatus("abc", 1);
         loginTicket = loginTicketMapper.selectByTicket("abc");
         System.out.println(loginTicket);
+    }
+
+    @Test
+    public void testSelectLetters(){
+        List<Message> messages = messageMapper.selectConversations(111, 0, 20);
+        for (Message message : messages) {
+            System.out.println(message);
+        }
+
+        int conversationCount = messageMapper.selectConversationCount(111);
+        System.out.println("conversationCount = " + conversationCount);
+
+        List<Message> messages1 = messageMapper.selectLetters("111_112", 0, 10);
+        for (Message message : messages1) {
+            System.out.println("message = " +message);
+        }
+
+        int i = messageMapper.selectLetterUnreadCount(131, "111_131");
+        System.out.println("i = " + i);
+
+
     }
 
 }

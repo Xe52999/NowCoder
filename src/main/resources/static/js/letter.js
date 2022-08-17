@@ -3,6 +3,8 @@ $(function(){
 	$(".close").click(delete_msg);
 });
 
+/*当 sendBtn被点击时执行send_letter*/
+
 function send_letter() {
 	$("#sendModal").modal("hide");
 

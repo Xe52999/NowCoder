@@ -209,5 +209,10 @@ public class UserService implements NowCoderConstant {
 //        clearCache(userId);
     }
 
+    public User findUserByName(String username) {
+        return userMapper.selectByName(username);
+    }
+
+
 
 }
