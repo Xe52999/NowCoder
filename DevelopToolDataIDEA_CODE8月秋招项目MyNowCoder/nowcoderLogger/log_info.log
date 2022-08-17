@@ -1,328 +1,316 @@
-2022-08-15 12:38:28,807 INFO [main] c.x.m.LoggerTest [StartupInfoLogger.java:55] Starting LoggerTest using Java 1.8.0_341 on PC-20220811KRGE with PID 18144 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 12:38:28,813 INFO [main] c.x.m.LoggerTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 12:38:30,672 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 12:38:31,209 INFO [main] c.x.m.LoggerTest [StartupInfoLogger.java:61] Started LoggerTest in 3.097 seconds (JVM running for 4.419)
-2022-08-15 12:38:31,480 INFO [main] c.x.m.LoggerTest [LoggerTest.java:25] info info
-2022-08-15 13:04:40,361 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_341 on PC-20220811KRGE with PID 17520 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:04:40,363 INFO [main] c.x.m.MailTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:04:42,552 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:04:42,931 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:61] Started MailTest in 3.126 seconds (JVM running for 4.033)
-2022-08-15 13:11:10,908 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_341 on PC-20220811KRGE with PID 18348 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:11:10,910 INFO [main] c.x.m.MailTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:11:12,691 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:11:13,056 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:61] Started MailTest in 2.656 seconds (JVM running for 3.757)
-2022-08-15 13:21:49,402 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 5368 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:21:49,403 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:21:49,449 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 13:21:49,450 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 13:21:50,470 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 13:21:50,478 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:21:50,478 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 13:21:50,479 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 13:21:50,549 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 13:21:50,549 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1099 ms
-2022-08-15 13:21:50,983 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:21:51,142 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 13:21:51,163 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:21:51,178 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 13:21:51,188 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.245 seconds (JVM running for 3.424)
-2022-08-15 13:22:00,960 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 13:22:00,960 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 13:22:00,961 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 13:22:01,062 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 13:22:01,465 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 13:32:08,660 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 13:32:08,672 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 13:35:32,757 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 9668 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:35:32,759 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:35:32,798 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 13:35:32,799 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 13:35:33,564 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 13:35:33,570 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:35:33,570 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 13:35:33,570 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 13:35:33,628 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 13:35:33,629 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 830 ms
-2022-08-15 13:35:33,990 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:35:34,095 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 13:35:34,114 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:35:34,126 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 13:35:34,134 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 1.723 seconds (JVM running for 2.5)
-2022-08-15 13:35:42,564 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 13:35:42,564 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 13:35:42,565 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 13:35:44,228 INFO [http-nio-8083-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 13:35:44,530 INFO [http-nio-8083-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 13:35:54,381 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 13:35:54,387 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 13:35:57,223 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 17936 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:35:57,225 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:35:57,262 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 13:35:57,263 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 13:35:57,866 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-08-15 13:36:23,504 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 2416 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:36:23,504 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:36:23,541 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 13:36:23,542 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 13:36:24,301 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 13:36:24,306 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:36:24,307 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 13:36:24,307 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 13:36:24,359 INFO [restartedMain] o.a.c.c.C.[.[.[/now] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 13:36:24,360 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 818 ms
-2022-08-15 13:36:24,718 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:36:24,816 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 13:36:24,834 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 13:36:24,845 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path '/now'
-2022-08-15 13:36:24,852 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 1.679 seconds (JVM running for 2.419)
-2022-08-15 13:36:42,931 INFO [http-nio-8083-exec-7] o.a.c.c.C.[.[.[/now] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 13:36:42,931 INFO [http-nio-8083-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 13:36:42,932 INFO [http-nio-8083-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 13:36:42,976 INFO [http-nio-8083-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 13:36:43,280 INFO [http-nio-8083-exec-7] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 13:37:59,230 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 13:37:59,234 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 13:52:20,105 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_341 on PC-20220811KRGE with PID 1252 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 13:52:20,107 INFO [main] c.x.m.MailTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 13:52:21,725 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 13:52:21,992 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:61] Started MailTest in 2.332 seconds (JVM running for 3.12)
-2022-08-15 14:13:29,829 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_341 on PC-20220811KRGE with PID 1880 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 14:13:29,831 INFO [main] c.x.m.MailTest [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 14:13:32,249 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 14:13:32,751 INFO [main] c.x.m.MailTest [StartupInfoLogger.java:61] Started MailTest in 3.537 seconds (JVM running for 4.638)
-2022-08-15 14:13:45,257 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 1968 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 14:13:45,259 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 14:13:45,292 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 14:13:45,292 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 14:13:46,325 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 14:13:46,333 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:13:46,334 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 14:13:46,334 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 14:13:46,418 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 14:13:46,418 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1126 ms
-2022-08-15 14:13:46,884 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 14:13:47,042 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 14:13:47,064 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:13:47,081 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 14:13:47,089 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.35 seconds (JVM running for 3.416)
-2022-08-15 14:14:07,626 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 14:14:07,626 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 14:14:07,628 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 14:14:07,685 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 14:14:08,057 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 14:19:19,515 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 14:19:19,522 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 14:31:18,387 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 12800 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 14:31:18,401 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 14:31:18,450 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 14:31:18,450 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 14:31:21,325 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 14:31:21,337 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:31:21,337 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 14:31:21,338 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 14:31:21,436 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 14:31:21,437 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2962 ms
-2022-08-15 14:31:23,063 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 14:31:23,380 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 14:31:23,442 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:31:23,481 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 14:31:23,511 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 6.207 seconds (JVM running for 7.46)
-2022-08-15 14:31:34,658 INFO [http-nio-8083-exec-4] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 14:31:34,658 INFO [http-nio-8083-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 14:31:34,659 INFO [http-nio-8083-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 14:31:34,722 INFO [http-nio-8083-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 14:31:35,153 INFO [http-nio-8083-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 14:34:19,585 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 14:34:19,596 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 14:54:59,478 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 16536 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 14:54:59,480 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 14:54:59,522 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 14:54:59,522 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 14:55:00,836 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 14:55:00,845 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:55:00,845 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 14:55:00,846 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 14:55:00,921 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 14:55:00,921 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1399 ms
-2022-08-15 14:55:01,454 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 14:55:01,655 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 14:55:01,687 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 14:55:01,707 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 14:55:01,718 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.825 seconds (JVM running for 3.95)
-2022-08-15 14:55:17,673 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 14:55:17,673 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 14:55:17,674 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
-2022-08-15 14:57:07,497 INFO [http-nio-8083-exec-8] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 14:57:07,944 INFO [http-nio-8083-exec-8] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 15:18:22,449 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 15:18:22,474 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 15:31:38,502 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 12912 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:31:38,516 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:31:38,560 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 15:31:38,560 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 15:31:40,689 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:31:40,706 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:31:40,707 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:31:40,707 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:31:40,930 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:31:40,940 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2378 ms
-2022-08-15 15:31:42,228 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:31:42,446 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:31:42,480 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:31:42,494 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:31:42,504 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 4.527 seconds (JVM running for 5.862)
-2022-08-15 15:32:21,754 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 15:32:21,754 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 15:32:21,755 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 15:35:29,616 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 4372 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:35:29,617 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:35:29,660 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 15:35:29,660 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 15:35:30,659 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:35:30,667 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:35:30,668 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:35:30,668 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:35:30,760 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:35:30,760 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1099 ms
-2022-08-15 15:35:31,291 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:35:31,428 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:35:31,451 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:35:31,468 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:35:31,476 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.299 seconds (JVM running for 3.233)
-2022-08-15 15:35:36,807 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 15:35:36,807 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 15:35:36,808 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 15:41:24,493 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 18428 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:41:24,495 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:41:24,543 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 15:41:24,545 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 15:41:25,581 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:41:25,589 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:41:25,589 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:41:25,589 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:41:25,656 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:41:25,657 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1110 ms
-2022-08-15 15:41:26,186 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:41:26,324 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:41:26,347 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:41:26,360 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:41:26,371 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.355 seconds (JVM running for 3.465)
-2022-08-15 15:41:36,638 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 15:41:36,638 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 15:41:36,640 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
-2022-08-15 15:42:04,306 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 14064 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:42:04,315 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:42:04,350 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 15:42:04,351 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 15:42:05,247 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:42:05,254 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:42:05,254 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:42:05,255 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:42:05,314 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:42:05,314 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 963 ms
-2022-08-15 15:42:05,760 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:42:05,886 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:42:05,908 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:42:05,921 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:42:05,930 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.033 seconds (JVM running for 3.153)
-2022-08-15 15:42:49,788 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 15:42:49,788 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 15:42:49,789 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 15:56:17,534 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 14064 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:56:17,535 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:56:17,994 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:56:17,995 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:56:17,996 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:56:17,996 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:56:18,034 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:56:18,034 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 496 ms
-2022-08-15 15:56:18,292 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:56:18,334 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:56:18,349 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:56:18,351 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:56:18,354 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 0.888 seconds (JVM running for 855.576)
-2022-08-15 15:56:18,355 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2022-08-15 15:56:20,251 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 14064 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:56:20,252 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:56:20,465 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 15:56:20,465 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:56:20,465 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 15:56:20,466 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 15:56:20,483 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 15:56:20,483 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 227 ms
-2022-08-15 15:56:20,576 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:56:20,608 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 15:56:20,617 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 15:56:20,618 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 15:56:20,621 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 0.41 seconds (JVM running for 857.844)
-2022-08-15 15:56:20,623 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2022-08-15 15:56:28,880 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:55] Starting MapperTests using Java 1.8.0_341 on PC-20220811KRGE with PID 2384 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:56:28,882 INFO [main] c.x.m.MapperTests [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:56:31,390 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:56:31,686 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:61] Started MapperTests in 3.352 seconds (JVM running for 12.577)
-2022-08-15 15:56:31,932 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 15:56:32,453 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 15:56:32,574 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 15:56:32,771 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 15:56:46,952 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:55] Starting MapperTests using Java 1.8.0_341 on PC-20220811KRGE with PID 10548 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 15:56:46,953 INFO [main] c.x.m.MapperTests [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 15:56:48,836 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 15:56:49,177 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:61] Started MapperTests in 2.703 seconds (JVM running for 3.551)
-2022-08-15 15:56:49,426 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 15:56:49,889 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 15:56:50,070 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 15:56:50,212 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 16:23:04,256 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:55] Starting MapperTests using Java 1.8.0_341 on PC-20220811KRGE with PID 13220 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 16:23:04,258 INFO [main] c.x.m.MapperTests [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 16:23:06,943 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 16:23:07,412 INFO [main] c.x.m.MapperTests [StartupInfoLogger.java:61] Started MapperTests in 3.77 seconds (JVM running for 4.937)
-2022-08-15 16:23:07,726 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 16:23:08,221 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 16:23:08,505 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 16:23:08,596 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 16:23:17,114 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 18052 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 16:23:17,116 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 16:23:17,175 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 16:23:17,176 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 16:23:18,582 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 16:23:18,590 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 16:23:18,591 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 16:23:18,591 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 16:23:18,664 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 16:23:18,664 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1487 ms
-2022-08-15 16:23:19,200 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 16:23:19,329 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 16:23:19,344 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 16:23:19,361 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 16:23:19,372 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 3.117 seconds (JVM running for 4.235)
-2022-08-15 16:23:41,966 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 16:23:41,966 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 16:23:41,967 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 16:24:01,806 INFO [http-nio-8083-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 16:24:02,220 INFO [http-nio-8083-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 16:31:52,375 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 16:31:52,385 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-08-15 16:31:58,299 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 8480 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
-2022-08-15 16:31:58,301 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
-2022-08-15 16:31:58,334 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-08-15 16:31:58,335 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-08-15 16:31:59,295 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
-2022-08-15 16:31:59,302 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
-2022-08-15 16:31:59,302 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-08-15 16:31:59,303 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-15 16:31:59,364 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-08-15 16:31:59,365 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1030 ms
-2022-08-15 16:31:59,853 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
-2022-08-15 16:31:59,979 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-08-15 16:31:59,994 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
-2022-08-15 16:32:00,008 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
-2022-08-15 16:32:00,017 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.163 seconds (JVM running for 3.182)
-2022-08-15 16:32:07,855 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-08-15 16:32:07,855 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-08-15 16:32:07,856 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
-2022-08-15 16:32:07,909 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-08-15 16:32:08,288 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-08-15 16:34:02,780 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-08-15 16:34:02,789 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 14:09:06,632 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 13932 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 14:09:06,639 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 14:09:06,698 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 14:09:06,699 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 14:09:07,574 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 14:09:07,581 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:09:07,581 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 14:09:07,581 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 14:09:07,640 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 14:09:07,641 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 942 ms
+2022-08-16 14:09:08,063 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 14:09:08,185 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 14:09:08,198 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:09:08,210 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 14:09:08,218 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.168 seconds (JVM running for 4.851)
+2022-08-16 14:09:21,000 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 14:09:21,000 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 14:09:21,001 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 14:09:21,055 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 14:09:36,543 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 14:17:36,481 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 14:17:36,492 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 14:25:36,196 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 5340 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 14:25:36,197 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 14:25:36,232 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 14:25:36,232 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 14:25:37,088 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 14:25:37,094 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:25:37,095 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 14:25:37,095 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 14:25:37,150 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 14:25:37,150 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 917 ms
+2022-08-16 14:25:37,537 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 14:25:37,642 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 14:25:37,655 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:25:37,667 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 14:25:37,674 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 1.814 seconds (JVM running for 2.896)
+2022-08-16 14:25:53,670 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 14:25:53,670 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 14:25:53,671 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 14:25:53,720 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 14:25:54,156 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 14:26:59,881 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 14:26:59,887 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 14:54:37,537 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 13232 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 14:54:37,540 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 14:54:37,692 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 14:54:37,693 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 14:54:40,438 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 14:54:40,464 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:54:40,465 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 14:54:40,466 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 14:54:40,601 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 14:54:40,601 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 2907 ms
+2022-08-16 14:54:41,347 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 14:54:41,517 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 14:54:41,534 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:54:41,549 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 14:54:41,561 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 5.274 seconds (JVM running for 6.94)
+2022-08-16 14:54:45,007 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 14:54:45,007 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 14:54:45,008 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 14:54:45,039 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 14:54:45,480 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 14:56:20,210 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 14:56:20,220 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 14:56:24,871 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 14308 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 14:56:24,877 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 14:56:25,038 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 14:56:25,039 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 14:56:26,117 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 14:56:26,124 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:56:26,124 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 14:56:26,124 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 14:56:26,190 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 14:56:26,190 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1148 ms
+2022-08-16 14:56:26,720 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 14:56:26,841 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 14:56:26,855 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 14:56:26,868 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 14:56:26,876 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.814 seconds (JVM running for 4.626)
+2022-08-16 14:56:46,567 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 14:56:46,567 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 14:56:46,568 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 14:56:46,593 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 14:56:46,956 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 14:58:09,280 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 14:58:09,288 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:00:06,047 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 9084 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:00:06,048 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:00:06,088 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:00:06,088 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:00:06,975 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:00:06,981 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:00:06,982 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:00:06,982 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:00:07,037 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:00:07,038 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 949 ms
+2022-08-16 15:00:07,480 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:00:07,596 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:00:07,611 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:00:07,624 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:00:07,632 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 1.988 seconds (JVM running for 3.051)
+2022-08-16 15:00:22,643 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:00:22,643 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:00:22,645 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:00:22,672 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:00:23,027 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:01:09,485 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:01:09,492 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:04:28,813 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 10988 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:04:28,814 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:04:28,852 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:04:28,853 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:04:29,723 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:04:29,729 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:04:29,730 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:04:29,730 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:04:29,786 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:04:29,786 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 933 ms
+2022-08-16 15:04:30,174 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:04:30,276 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:04:30,290 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:04:30,300 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:04:30,308 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 1.827 seconds (JVM running for 2.753)
+2022-08-16 15:04:39,313 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:04:39,313 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:04:39,314 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2022-08-16 15:04:39,334 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:04:39,697 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:06:44,424 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:06:44,431 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:06:48,070 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 1092 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:06:48,071 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:06:48,104 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:06:48,105 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:06:48,969 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:06:48,976 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:06:48,977 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:06:48,977 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:06:49,033 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:06:49,033 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 928 ms
+2022-08-16 15:06:49,583 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:06:49,709 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:06:49,723 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:06:49,735 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:06:49,744 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.186 seconds (JVM running for 3.212)
+2022-08-16 15:06:58,269 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:06:58,269 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:06:58,270 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:06:58,297 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:06:58,705 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:08:21,518 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:08:21,526 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:08:26,007 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 3736 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:08:26,008 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:08:26,041 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:08:26,041 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:08:27,167 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:08:27,173 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:08:27,174 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:08:27,174 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:08:27,239 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:08:27,239 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1197 ms
+2022-08-16 15:08:27,686 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:08:27,812 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:08:27,826 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:08:27,838 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:08:27,846 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.306 seconds (JVM running for 3.373)
+2022-08-16 15:08:35,571 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:08:35,571 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:08:35,572 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:08:35,597 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:08:35,925 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:08:57,824 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:08:57,832 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:09:01,634 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 2184 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:09:01,635 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:09:01,680 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:09:01,681 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:09:02,534 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:09:02,542 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:09:02,542 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:09:02,542 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:09:02,597 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:09:02,597 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 916 ms
+2022-08-16 15:09:03,032 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:09:03,153 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:09:03,167 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:09:03,180 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:09:03,189 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.064 seconds (JVM running for 3.083)
+2022-08-16 15:09:25,064 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:09:25,065 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:09:25,065 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2022-08-16 15:09:25,092 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:09:25,481 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:12:13,716 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:12:13,744 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:12:17,844 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 4504 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:12:17,846 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:12:17,879 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:12:17,879 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:12:19,614 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:12:19,628 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:12:19,629 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:12:19,629 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:12:19,733 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:12:19,733 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1853 ms
+2022-08-16 15:12:20,251 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:12:20,370 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:12:20,385 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:12:20,398 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:12:20,406 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 3.146 seconds (JVM running for 4.451)
+2022-08-16 15:12:57,816 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:12:57,816 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:12:57,817 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:12:57,847 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:12:58,184 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:20:59,676 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:20:59,685 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:21:05,348 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 2464 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:21:05,349 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:21:05,382 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:21:05,382 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:21:06,306 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:21:06,314 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:21:06,314 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:21:06,314 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:21:06,373 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:21:06,374 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 991 ms
+2022-08-16 15:21:06,843 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:21:06,989 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:21:07,005 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:21:07,018 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:21:07,026 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.189 seconds (JVM running for 3.468)
+2022-08-16 15:21:21,552 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:21:21,552 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:21:21,553 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:21:21,579 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:21:21,908 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:23:50,582 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:23:50,588 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:50:17,833 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 2724 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:50:17,834 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:50:17,875 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:50:17,875 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:50:19,254 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:50:19,271 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:50:19,271 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:50:19,272 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:50:19,526 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:50:19,526 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1650 ms
+2022-08-16 15:50:20,226 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:50:20,365 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:50:20,379 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:50:20,391 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:50:20,401 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.984 seconds (JVM running for 3.912)
+2022-08-16 15:50:34,240 INFO [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:50:34,240 INFO [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:50:34,241 INFO [http-nio-8083-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 0 ms
+2022-08-16 15:50:34,271 INFO [http-nio-8083-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:50:34,591 INFO [http-nio-8083-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 15:52:49,353 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 15:52:49,359 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 15:52:52,932 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 4008 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 15:52:52,935 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 15:52:52,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 15:52:52,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 15:52:53,925 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 15:52:53,931 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:52:53,932 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 15:52:53,932 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 15:52:53,989 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 15:52:53,990 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1016 ms
+2022-08-16 15:52:54,444 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 15:52:54,571 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 15:52:54,587 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 15:52:54,600 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 15:52:54,608 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.207 seconds (JVM running for 3.263)
+2022-08-16 15:53:03,775 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 15:53:03,776 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 15:53:03,777 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 15:53:03,804 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 15:53:04,164 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 16:07:54,734 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 16:07:54,750 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 16:15:06,032 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:55] Starting MyNowCoderApplication using Java 1.8.0_341 on PC-20220811KRGE with PID 1360 (D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder\target\classes started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 16:15:06,042 INFO [restartedMain] c.x.m.MyNowCoderApplication [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 16:15:06,078 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-16 16:15:06,078 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-16 16:15:07,035 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8083 (http)
+2022-08-16 16:15:07,042 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8083"]
+2022-08-16 16:15:07,042 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-08-16 16:15:07,042 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-16 16:15:07,100 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-08-16 16:15:07,100 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:292] Root WebApplicationContext: initialization completed in 1021 ms
+2022-08-16 16:15:07,558 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 16:15:07,679 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-08-16 16:15:07,694 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8083"]
+2022-08-16 16:15:07,707 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8083 (http) with context path ''
+2022-08-16 16:15:07,715 INFO [restartedMain] c.x.m.MyNowCoderApplication [StartupInfoLogger.java:61] Started MyNowCoderApplication in 2.112 seconds (JVM running for 3.2)
+2022-08-16 16:15:17,879 INFO [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 16:15:17,879 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-08-16 16:15:17,880 INFO [http-nio-8083-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-08-16 16:15:17,909 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-08-16 16:15:18,254 INFO [http-nio-8083-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-08-16 16:47:24,823 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-08-16 16:47:24,830 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-08-16 16:47:58,493 INFO [main] c.x.m.MyNowCoderApplicationTests [StartupInfoLogger.java:55] Starting MyNowCoderApplicationTests using Java 1.8.0_341 on PC-20220811KRGE with PID 12172 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 16:47:58,495 INFO [main] c.x.m.MyNowCoderApplicationTests [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 16:48:00,824 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 16:48:01,158 INFO [main] c.x.m.MyNowCoderApplicationTests [StartupInfoLogger.java:61] Started MyNowCoderApplicationTests in 3.237 seconds (JVM running for 4.199)
+2022-08-16 16:55:48,757 INFO [main] c.x.m.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 1.8.0_341 on PC-20220811KRGE with PID 13288 (started by Administrator in D:\DevelopToolData\IDEA_CODE\8月秋招项目\MyNowCoder\MyNowCoder)
+2022-08-16 16:55:48,759 INFO [main] c.x.m.SensitiveTests [SpringApplication.java:634] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 16:55:50,346 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-08-16 16:55:50,774 INFO [main] c.x.m.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 2.416 seconds (JVM running for 3.174)

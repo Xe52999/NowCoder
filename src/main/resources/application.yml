@@ -58,3 +58,6 @@ mybatis:
 nowcoder:
   path:
    domain: http://localhost:8083
+   upload: d:/work/data/upload
+
+

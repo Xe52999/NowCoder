@@ -197,5 +197,17 @@ public class UserService implements NowCoderConstant {
        loginTicketMapper.updateStatus(ticket, 1);
     }
 
+    public LoginTicket findLoginTicket(String ticket) {
+        return loginTicketMapper.selectByTicket(ticket);
+//        String redisKey = RedisKeyUtil.getTicketKey(ticket);
+//        return (LoginTicket) redisTemplate.opsForValue().get(redisKey);
+    }
+    //更新用户头像
+    public int updateHeader(int userId, String headerUrl) {
+        return userMapper.updateHeader(userId, headerUrl);
+//        int rows = userMapper.updateHeader(userId, headerUrl);
+//        clearCache(userId);
+    }
+
 
 }
