@@ -3,6 +3,8 @@ package com.xe.mynowcoder.controller;
 
 import com.xe.mynowcoder.annotation.LoginRequired;
 import com.xe.mynowcoder.entity.User;
+import com.xe.mynowcoder.service.FollowService;
+import com.xe.mynowcoder.service.LikeService;
 import com.xe.mynowcoder.service.UserService;
 import com.xe.mynowcoder.util.HostHolder;
 import com.xe.mynowcoder.util.NowCoderConstant;
@@ -44,6 +46,12 @@ public class UserController implements NowCoderConstant {
 
     @Autowired
     private HostHolder hostHolder;
+
+    @Autowired
+    private LikeService likeService;
+
+    @Autowired
+    private FollowService followService;
 
 
     //访问账号设置页面
@@ -131,6 +139,36 @@ public class UserController implements NowCoderConstant {
         } catch (IOException e) {
             logger.error("读取头像失败: " + e.getMessage());
         }
+    }
+
+
+    // 个人主页(也是任意主页根据userId确定）
+    @GetMapping(path = "/profile/{userId}")
+    public String getProfilePage(@PathVariable("userId") int userId, Model model) {
+        User user = userService.findUserById(userId);
+        if (user == null) {
+            throw new RuntimeException("该用户不存在!");
+        }
+
+        // 用户
+        model.addAttribute("user", user);
+        // 点赞数量
+        int likeCount = likeService.findUserLikeCount(userId);
+        model.addAttribute("likeCount", likeCount);
+        // 关注数量
+        long followeeCount = followService.findFolloweeCount(userId, ENTITY_TYPE_USER);
+        model.addAttribute("followeeCount", followeeCount);
+        // 粉丝数量
+        long followerCount = followService.findFollowerCount(ENTITY_TYPE_USER, userId);
+        model.addAttribute("followerCount", followerCount);
+        // 是否已关注
+        boolean hasFollowed = false;
+        if (hostHolder.getUser() != null) {
+            hasFollowed = followService.hasFollowed(hostHolder.getUser().getUserId(), ENTITY_TYPE_USER, userId);
+        }
+        model.addAttribute("hasFollowed", hasFollowed);
+
+        return "/site/profile";
     }
 
 }

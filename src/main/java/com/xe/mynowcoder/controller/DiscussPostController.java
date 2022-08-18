@@ -6,6 +6,7 @@ import com.xe.mynowcoder.entity.Page;
 import com.xe.mynowcoder.entity.User;
 import com.xe.mynowcoder.service.CommentService;
 import com.xe.mynowcoder.service.DiscussPostService;
+import com.xe.mynowcoder.service.LikeService;
 import com.xe.mynowcoder.service.UserService;
 import com.xe.mynowcoder.util.HostHolder;
 import com.xe.mynowcoder.util.NowCoderConstant;
@@ -32,6 +33,9 @@ public class DiscussPostController implements NowCoderConstant {
 
     @Autowired
     private CommentService commentService;
+
+    @Autowired
+    private LikeService likeService;
 
 
     @PostMapping(path = "/add")
@@ -61,6 +65,15 @@ public class DiscussPostController implements NowCoderConstant {
         User user = userService.findUserById(post.getUserId());
         model.addAttribute("user", user);
 
+        // 点赞数量
+        long likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_POST, discussPostId);
+        model.addAttribute("likeCount", likeCount);
+        // 点赞状态
+        int likeStatus = hostHolder.getUser() == null ? 0 :
+                likeService.findEntityLikeStatus(hostHolder.getUser().getUserId(), ENTITY_TYPE_POST, discussPostId);
+        model.addAttribute("likeStatus", likeStatus);
+
+
         // 评论: 给帖子的评论
         // 回复: 给评论的评论
 
@@ -83,13 +96,13 @@ public class DiscussPostController implements NowCoderConstant {
                 commentVo.put("comment", comment);
                 // 作者
                 commentVo.put("user", userService.findUserById(comment.getUserId()));
-//                // 点赞数量
-//                likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_COMMENT, comment.getId());
-//                commentVo.put("likeCount", likeCount);
-//                // 点赞状态
-//                likeStatus = hostHolder.getUser() == null ? 0 :
-//                        likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_TYPE_COMMENT, comment.getId());
-//                commentVo.put("likeStatus", likeStatus);
+                // 点赞数量
+                likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_COMMENT, comment.getCommentId());
+                commentVo.put("likeCount", likeCount);
+                // 点赞状态
+                likeStatus = hostHolder.getUser() == null ? 0 :
+                        likeService.findEntityLikeStatus(hostHolder.getUser().getUserId(), ENTITY_TYPE_COMMENT, comment.getCommentId());
+                commentVo.put("likeStatus", likeStatus);
 
                 // 回复列表
                 //查询所有，这里就不分页了
@@ -107,6 +120,14 @@ public class DiscussPostController implements NowCoderConstant {
                         // 回复目标
                         User target = reply.getTargetId() == 0 ? null : userService.findUserById(reply.getTargetId());
                         replyVo.put("target", target);
+
+                        // 点赞数量
+                        likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_COMMENT, reply.getCommentId());
+                        replyVo.put("likeCount", likeCount);
+                        // 点赞状态
+                        likeStatus = hostHolder.getUser() == null ? 0 :
+                                likeService.findEntityLikeStatus(hostHolder.getUser().getUserId(), ENTITY_TYPE_COMMENT, reply.getCommentId());
+                        replyVo.put("likeStatus", likeStatus);
 
                         replyVoList.add(replyVo);
                     }

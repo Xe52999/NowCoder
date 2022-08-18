@@ -3,7 +3,9 @@ package com.xe.mynowcoder.controller;
 import com.xe.mynowcoder.entity.DiscussPost;
 import com.xe.mynowcoder.entity.Page;
 import com.xe.mynowcoder.service.DiscussPostService;
+import com.xe.mynowcoder.service.LikeService;
 import com.xe.mynowcoder.service.UserService;
+import com.xe.mynowcoder.util.NowCoderConstant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,13 +28,16 @@ import java.util.Map;
  * @DATE 2022/8/15
  */
 @Controller
-public class HomeController {
+public class HomeController implements NowCoderConstant {
     private  static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     @Autowired
     private DiscussPostService discussPostService;
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private LikeService likeService;
 
     @GetMapping("/index")
     public String getIndexPage(Model model, Page page){
@@ -55,9 +60,15 @@ public class HomeController {
                 Map<String,Object> map = new HashMap<>();
                 map.put("post",post);
                 map.put("user",userService.findUserById(post.getUserId()));
+
+                long likeCount = likeService.findEntityLikeCount(ENTITY_TYPE_POST, post.getDiscussPostId());
+                map.put("likeCount", likeCount);
+
                 discussPosts.add(map);
             }
         }
+
+
         model.addAttribute("discussPosts",discussPosts);
         return "/index";
     }

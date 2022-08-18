@@ -5,7 +5,7 @@ import com.xe.mynowcoder.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 @Mapper
-//@Deprecated
+@Deprecated
 public interface LoginTicketMapper {
 
     //会自动帮你拼接
