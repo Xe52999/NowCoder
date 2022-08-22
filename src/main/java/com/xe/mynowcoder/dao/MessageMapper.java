@@ -30,13 +30,13 @@ public interface MessageMapper {
     // 修改消息的状态  修改列表中的所有的未读状态
     int updateStatus(List<Integer> ids, int status);
 
-    // 查询某个主题下最新的通知
+    // 查询（某用户）某个主题下最新的通知
     Message selectLatestNotice(int userId, String topic);
 
-    // 查询某个主题所包含的通知数量
+    // 查询（某用户）某个主题所包含的通知数量
     int selectNoticeCount(int userId, String topic);
 
-    // 查询未读的通知的数量
+    // 查询未读的通知的数量  传入topic就是求某一类的，不传就是查所有的
     int selectNoticeUnreadCount(int userId, String topic);
 
     // 查询某个主题所包含的通知列表

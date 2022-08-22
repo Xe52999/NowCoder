@@ -1,8 +1,10 @@
 package com.xe.mynowcoder.controller;
 
 
+import com.xe.mynowcoder.entity.Event;
 import com.xe.mynowcoder.entity.Page;
 import com.xe.mynowcoder.entity.User;
+import com.xe.mynowcoder.event.EventProducer;
 import com.xe.mynowcoder.service.FollowService;
 import com.xe.mynowcoder.service.UserService;
 import com.xe.mynowcoder.util.HostHolder;
@@ -28,6 +30,9 @@ public class FollowController implements NowCoderConstant {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
 
     @PostMapping(path = "/follow")
     @ResponseBody
@@ -36,6 +41,15 @@ public class FollowController implements NowCoderConstant {
         if(user == null)   return NowCoderUtil.getJSONString(1, "请先登录!");
 
         followService.follow(user.getUserId(), entityType, entityId);
+
+        // 触发关注事件
+        Event event = new Event()
+                .setTopic(TOPIC_FOLLOW)
+                .setUserId(hostHolder.getUser().getUserId())
+                .setEntityType(entityType)
+                .setEntityId(entityId)
+                .setEntityUserId(entityId);
+        eventProducer.fireEvent(event);
 
         return NowCoderUtil.getJSONString(0, "已关注!");
     }

@@ -3,6 +3,7 @@ package com.xe.mynowcoder.config;
 import com.xe.mynowcoder.controller.interceptor.AlphaInterceptor;
 import com.xe.mynowcoder.controller.interceptor.LoginRequiredInterceptor;
 import com.xe.mynowcoder.controller.interceptor.LoginTicketInterceptor;
+import com.xe.mynowcoder.controller.interceptor.MessageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -23,7 +24,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Autowired
     private LoginRequiredInterceptor loginRequiredInterceptor;
-
+    @Autowired
+    private MessageInterceptor messageInterceptor;
 
 
     @Override
@@ -40,6 +42,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
         //拦截所有请求
         registry.addInterceptor(loginRequiredInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+        //拦截所有请求
+        registry.addInterceptor(messageInterceptor)
                 .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
     }
 }

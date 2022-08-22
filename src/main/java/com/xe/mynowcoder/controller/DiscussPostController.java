@@ -1,9 +1,7 @@
 package com.xe.mynowcoder.controller;
 
-import com.xe.mynowcoder.entity.Comment;
-import com.xe.mynowcoder.entity.DiscussPost;
-import com.xe.mynowcoder.entity.Page;
-import com.xe.mynowcoder.entity.User;
+import com.xe.mynowcoder.entity.*;
+import com.xe.mynowcoder.event.EventProducer;
 import com.xe.mynowcoder.service.CommentService;
 import com.xe.mynowcoder.service.DiscussPostService;
 import com.xe.mynowcoder.service.LikeService;
@@ -37,6 +35,9 @@ public class DiscussPostController implements NowCoderConstant {
     @Autowired
     private LikeService likeService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
 
     @PostMapping(path = "/add")
     @ResponseBody
@@ -52,6 +53,17 @@ public class DiscussPostController implements NowCoderConstant {
         post.setContent(content);
         post.setCreateTime(new Date());
         discussPostService.addDiscussPost(post);
+
+        // 触发发帖事件
+        Event event = new Event()
+                .setTopic(TOPIC_PUBLISH)
+                .setUserId(user.getUserId())
+                .setEntityType(ENTITY_TYPE_POST)
+                .setEntityId(post.getDiscussPostId());
+
+        eventProducer.fireEvent(event);
+
+
         return NowCoderUtil.getJSONString(0, "发布成功!");
     }
 

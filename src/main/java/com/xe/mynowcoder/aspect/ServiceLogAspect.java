@@ -31,6 +31,7 @@ public class ServiceLogAspect {
         // 用户[1.2.3.4],在[xxx],访问了[com.xe.mynowcoder.service.xxx()].
         //
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        //消费者调用service的时候 并没有请求
         if (attributes == null) {
             return;
         }

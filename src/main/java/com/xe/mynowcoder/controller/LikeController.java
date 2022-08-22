@@ -1,7 +1,9 @@
 package com.xe.mynowcoder.controller;
 
 
+import com.xe.mynowcoder.entity.Event;
 import com.xe.mynowcoder.entity.User;
+import com.xe.mynowcoder.event.EventProducer;
 import com.xe.mynowcoder.service.LikeService;
 import com.xe.mynowcoder.util.HostHolder;
 import com.xe.mynowcoder.util.NowCoderConstant;
@@ -30,11 +32,15 @@ public class LikeController implements NowCoderConstant {
 
 
     @Autowired
+    private EventProducer eventProducer;
+
+
+    @Autowired
     private RedisTemplate redisTemplate;
 
     @PostMapping(path = "/like")
     @ResponseBody
-    public String like(int entityType, int entityId,int entityUserId) {
+    public String like(int entityType, int entityId,int entityUserId,int postId) {
         User user = hostHolder.getUser();
 
         if(user==null) return NowCoderUtil.getJSONString(1,"您还未登录");
@@ -51,6 +57,23 @@ public class LikeController implements NowCoderConstant {
         Map<String, Object> map = new HashMap<>();
         map.put("likeCount", likeCount);
         map.put("likeStatus", likeStatus);
+
+        // 触发点赞事件
+        if (likeStatus == 1) {
+            Event event = new Event()
+                    .setTopic(TOPIC_LIKE)
+                    .setUserId(hostHolder.getUser().getUserId())
+                    .setEntityType(entityType)
+                    .setEntityId(entityId)
+                    .setEntityUserId(entityUserId)
+                    .setData("postId", postId);
+            //postId 可以让我们连接到帖子详情页面
+            eventProducer.fireEvent(event);
+        }
+
+
+
+
         //异步请求，返回的是Json格式字符串，所以不用model
         return NowCoderUtil.getJSONString(0, null, map);
     }
